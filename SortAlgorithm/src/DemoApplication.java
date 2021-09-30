@@ -14,7 +14,7 @@ public class DemoApplication {
         nums.add(11);
         nums.add(31);
 
-        Solution.radixSort(nums);
+        Solution.quickSort(nums, 0, 9);
         for(var num:nums){
             System.out.print(num);
             System.out.print(" ");
